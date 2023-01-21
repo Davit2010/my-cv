@@ -1,0 +1,127 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding: 90px 0px;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+img {
+  width: 100%;
+  height: 75%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header {
+  display: flex;
+  background-color: #063e89;
+  padding: 20px;
+  width: 85%;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+header .left-block {
+  border-bottom: 1px solid white;
+}
+header .left-block h1 {
+  margin: 0;
+}
+header .left-block .name-sername {
+  font-size: 45px;
+}
+header .left-block .work {
+  font-size: 22px;
+  margin: 15px 0;
+}
+header .right-block {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 50%;
+  overflow: hidden;
+}
+header .right-block img {
+  width: 100%;
+}
+
+.parent-left-cont {
+  width: 45%;
+  padding: 0 5%;
+  background-color: #f5fbff;
+}
+
+.parent-right-cont {
+  width: 55%;
+  padding: 0 5%;
+}
+
+main {
+  width: 85%;
+  display: flex;
+  background-color: white;
+  height: 100%;
+}
+main .title {
+  color: #063e89;
+}
+main .left-cont > div {
+  margin-top: 55px;
+}
+main .left-cont .icon {
+  width: 20px;
+}
+main .left-cont .contacts-cont {
+  color: gray;
+}
+main .right-cont > div {
+  margin-top: 55px;
+}
+main .right-cont .projects {
+  font-size: 20px;
+  color: orange;
+  line-height: 1.5;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 435px;
+}
+main .right-cont .projects .links {
+  padding: 10px;
+  max-width: 200px;
+  text-decoration: none;
+  color: black;
+  background-color: #afbfd4;
+  border-radius: 5px;
+}
+main .right-cont .projects .links p {
+  margin: 0;
+  margin-top: 5px;
+  text-align: center;
+}
+main .right-cont .bookmark {
+  font-size: 25px;
+  color: grey;
+}
+main .skils-cont ul {
+  padding-left: 18px;
+}
+main .description {
+  width: 220px;
+}
+main .education-cont {
+  padding-bottom: 20px;
+  border-bottom: 2px solid #8baad2;
+}/*# sourceMappingURL=style.css.map */
